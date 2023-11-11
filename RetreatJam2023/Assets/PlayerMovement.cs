@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;  // Movement speed
     public Animator m_animator;
 
-    void Update()
+    void FixedUpdate()
     {
         Move();
     }
