@@ -10,20 +10,34 @@ public class FieldOfView : MonoBehaviour
     [SerializeField] int rayCount = 50;
     // Start is called before the first frame update
     private Mesh mesh;
+    private CamperStateManager camperState;
+    private PolygonCollider2D polygoneCollider;
     private Vector3 origin;
     private float startAngle;
+
+    public void SetCamper(CamperStateManager camperStateManager)
+    {
+        camperState = camperStateManager;
+    }
     void Start()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
+        polygoneCollider = GetComponent<PolygonCollider2D>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<PlayerMovement>() != null)
+        {
+            camperState.FoundPlayer(other.gameObject);
+        }
     }
 
     void CreateFieldOfView()
     {
-        //Do nothing for now
-        return;
+
         float angle = startAngle;
-        Debug.DrawLine(origin, origin + GetVectorFromAngle(angle) * viewDistance, Color.red);
 
         float angleIncrease = fov / rayCount;
 
@@ -62,10 +76,15 @@ public class FieldOfView : MonoBehaviour
             angle -= angleIncrease;
         }
 
+        List<Vector2> points = new List<Vector2>();
+        for(int i = 0; i < vertices.Length; i++)
+        {
+            points.Add(new Vector2(vertices[i].x, vertices[i].y));
+        }
+        polygoneCollider.points = points.ToArray();
         mesh.vertices = vertices;
         mesh.uv = uv;
         mesh.triangles = triangles;
-        Debug.DrawLine(origin, origin + GetVectorFromAngle(angle) * viewDistance, Color.red);
     }
 
     public static Vector3 GetVectorFromAngle(float angle)

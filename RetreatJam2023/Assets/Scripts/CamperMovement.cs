@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DirectionFacing
-{
-    Up,
-    Down,
-    Left,
-    Right
-}
+
 public class CamperMovement : MonoBehaviour
 {
     Vector2 moveDirection;
-    DirectionFacing m_directionFacing;
     [SerializeField] Animator animator;
     [SerializeField] float moveSpeed;
     [SerializeField] FieldOfView fieldOfView;
@@ -20,11 +13,32 @@ public class CamperMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CalculateRandomDirection();
         GameObject fieldOfViewObj = Instantiate(fieldOfViewPrefab);
         fieldOfView = fieldOfViewObj.GetComponent<FieldOfView>();
+        fieldOfView.SetCamper(GetComponent<CamperStateManager>());
         SetFieldOfView();
+
+        CalculateRandomDirection();
     }
+
+    public void GoFast()
+    {
+        moveSpeed = moveSpeed * 2;
+    }
+
+    public void GoSlow()
+    {
+        moveSpeed = moveSpeed / 2;
+    }
+
+    public void ChangeDirection(Vector2 dir)
+    {
+        moveDirection = dir;
+        animator.SetFloat("Horizontal", moveDirection.x);
+        animator.SetFloat("Vertical", moveDirection.y);
+        FindMoveDirection();
+    }
+        
 
     // Update is called once per frame
     void FixedUpdate()
@@ -69,12 +83,10 @@ public class CamperMovement : MonoBehaviour
         {
             if (moveDirection.x > 0)
             {
-                m_directionFacing = DirectionFacing.Right;
                 fieldOfView.SetAimDirection(transform.up);
             }
             else
             {
-                m_directionFacing = DirectionFacing.Left;
                 fieldOfView.SetAimDirection(-transform.up);
             }
         }
@@ -82,13 +94,11 @@ public class CamperMovement : MonoBehaviour
         {
             if (moveDirection.y > 0)
             {
-                m_directionFacing = DirectionFacing.Up;
-                fieldOfView.SetAimDirection(transform.right);
+                fieldOfView.SetAimDirection(-transform.right);
             }
             else
             {
-                m_directionFacing = DirectionFacing.Down;
-                fieldOfView.SetAimDirection(-transform.right);
+                fieldOfView.SetAimDirection(transform.right);
             }
         }
     }
@@ -97,6 +107,8 @@ public class CamperMovement : MonoBehaviour
     {
         if (collision.transform.GetComponent<PlayerMovement>() != null)
         {
+            Destroy(fieldOfView.gameObject);
+            FindObjectOfType<WinOrLoseCondition>().CamperDied(this);
             Destroy(this.gameObject);
         }
         else
