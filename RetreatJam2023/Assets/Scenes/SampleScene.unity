@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 37192436}
   - component: {fileID: 37192435}
   - component: {fileID: 37192434}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,11 +321,11 @@ Transform:
   m_GameObject: {fileID: 37192433}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.3821917, y: 3.5277267, z: 0}
+  m_LocalPosition: {x: -5.8669033, y: 4.305493, z: 0.064257205}
   m_LocalScale: {x: 1.2671002, y: 1.2671002, z: 1.2671002}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68179422
 GameObject:
@@ -336,7 +336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 68179423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,14 +351,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68179422}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.43594941, y: -0.43, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9512376, y: 0.3477661, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1147828583}
   - {fileID: 1860633676}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &91194986
 GameObject:
@@ -455,13 +455,13 @@ GameObject:
   - component: {fileID: 95152162}
   - component: {fileID: 95152161}
   - component: {fileID: 95152160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &95152160
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -557,12 +557,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95152159}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: -1.36, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.1352882, y: -0.5822339, z: 0.064257205}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &124518336
 GameObject:
@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 248855995}
   - component: {fileID: 248855997}
   - component: {fileID: 248855996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 357978863}
   - component: {fileID: 357978865}
   - component: {fileID: 357978864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1690,7 +1690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427619341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1705,14 +1705,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427619340}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.9, y: -4.31734, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 5.415288, y: -3.5395737, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 892209041}
   - {fileID: 1055076981}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &456638486
 GameObject:
@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 456638487}
   - component: {fileID: 456638489}
   - component: {fileID: 456638488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2035,7 +2035,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.7016444
+  orthographic size: 3.14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2195,7 +2195,7 @@ GameObject:
   - component: {fileID: 611335315}
   - component: {fileID: 611335314}
   - component: {fileID: 611335313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,11 +2298,11 @@ Transform:
   m_GameObject: {fileID: 611335312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.6321917, y: -2.9722733, z: 0}
+  m_LocalPosition: {x: -4.1169033, y: -2.1945071, z: 0.064257205}
   m_LocalScale: {x: 1.2671002, y: 1.2671002, z: 1.2671002}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614262128
 GameObject:
@@ -2313,7 +2313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614262129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,14 +2328,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614262128}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.1859493, y: 0.12, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.7012377, y: 0.8977661, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1472555564}
   - {fileID: 1644405152}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -2850,7 +2850,7 @@ GameObject:
   - component: {fileID: 736367693}
   - component: {fileID: 736367695}
   - component: {fileID: 736367694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2980,7 +2980,7 @@ GameObject:
   - component: {fileID: 791895249}
   - component: {fileID: 791895248}
   - component: {fileID: 791895247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3083,11 +3083,11 @@ Transform:
   m_GameObject: {fileID: 791895246}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.3678083, y: 4.0277267, z: 0}
+  m_LocalPosition: {x: 8.883097, y: 4.805493, z: 0.064257205}
   m_LocalScale: {x: 0.89751244, y: 0.89751244, z: 0.89751244}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &794848945
 GameObject:
@@ -3166,7 +3166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 810221897}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3181,15 +3181,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810221896}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.87587, y: 5.3094, z: -0.1297}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.6394181, y: 6.0871663, z: -0.0654428}
   m_LocalScale: {x: 2.3789, y: 2.3789, z: 2.3789}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1909848640}
   - {fileID: 736367693}
   - {fileID: 248855995}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &815306791
 GameObject:
@@ -3286,7 +3286,7 @@ GameObject:
   - component: {fileID: 824441851}
   - component: {fileID: 824441853}
   - component: {fileID: 824441852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3679,7 +3679,7 @@ GameObject:
   - component: {fileID: 838972067}
   - component: {fileID: 838972069}
   - component: {fileID: 838972068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3807,7 +3807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 842732764}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3822,14 +3822,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842732763}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -2.8140507, y: -2.1800003, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -1.2987626, y: -1.4022342, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1472773973}
   - {fileID: 2031773607}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &847400941
 GameObject:
@@ -3926,7 +3926,7 @@ GameObject:
   - component: {fileID: 892209041}
   - component: {fileID: 892209043}
   - component: {fileID: 892209042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4396,7 +4396,7 @@ GameObject:
   - component: {fileID: 1011950673}
   - component: {fileID: 1011950675}
   - component: {fileID: 1011950674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4526,7 +4526,7 @@ GameObject:
   - component: {fileID: 1055076981}
   - component: {fileID: 1055076983}
   - component: {fileID: 1055076982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5076,7 +5076,7 @@ GameObject:
   - component: {fileID: 1147828583}
   - component: {fileID: 1147828585}
   - component: {fileID: 1147828584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5235,7 +5235,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1842006257}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 5.7016444
+    OrthographicSize: 3.14
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -5296,7 +5296,7 @@ GameObject:
   - component: {fileID: 1216133822}
   - component: {fileID: 1216133821}
   - component: {fileID: 1216133820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5399,11 +5399,11 @@ Transform:
   m_GameObject: {fileID: 1216133819}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8678083, y: -4.64, z: 0}
+  m_LocalPosition: {x: 8.383097, y: -3.8622336, z: 0.064257205}
   m_LocalScale: {x: 0.6912551, y: 0.6912551, z: 0.6912551}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1244883169
 GameObject:
@@ -5699,7 +5699,7 @@ GameObject:
   - component: {fileID: 1317017834}
   - component: {fileID: 1317017833}
   - component: {fileID: 1317017832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5720,6 +5720,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1317017835}
   moveSpeed: 1
+  fieldOfView: {fileID: 8847884743858778743, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
+  fieldOfViewPrefab: {fileID: 1367885405492333079, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
 --- !u!50 &1317017833
 Rigidbody2D:
   serializedVersion: 4
@@ -5864,8 +5866,8 @@ Transform:
   m_GameObject: {fileID: 1317017831}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.030631, y: 1.7383, z: 0}
-  m_LocalScale: {x: 0.22814985, y: 0.22814985, z: 0.22814985}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2281498, y: 0.2281498, z: 0.2281498}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5881,7 +5883,7 @@ GameObject:
   - component: {fileID: 1322494745}
   - component: {fileID: 1322494747}
   - component: {fileID: 1322494746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6542,7 +6544,7 @@ GameObject:
   - component: {fileID: 1453203451}
   - component: {fileID: 1453203450}
   - component: {fileID: 1453203449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6645,11 +6647,11 @@ Transform:
   m_GameObject: {fileID: 1453203448}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.117808, y: -4.89, z: 0}
+  m_LocalPosition: {x: 9.633097, y: -4.1122336, z: 0.064257205}
   m_LocalScale: {x: 0.6912551, y: 0.6912551, z: 0.6912551}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1458851483
 GameObject:
@@ -6746,7 +6748,7 @@ GameObject:
   - component: {fileID: 1472555564}
   - component: {fileID: 1472555566}
   - component: {fileID: 1472555565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6876,7 +6878,7 @@ GameObject:
   - component: {fileID: 1472773973}
   - component: {fileID: 1472773975}
   - component: {fileID: 1472773974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7331,6 +7333,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1577955668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577955669}
+  m_Layer: 6
+  m_Name: Environemnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577955669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577955668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5152881, y: -0.7777661, z: -0.064257205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 68179423}
+  - {fileID: 842732764}
+  - {fileID: 1926703030}
+  - {fileID: 614262129}
+  - {fileID: 2010522102}
+  - {fileID: 1811158793}
+  - {fileID: 427619341}
+  - {fileID: 810221897}
+  - {fileID: 95152162}
+  - {fileID: 611335315}
+  - {fileID: 37192436}
+  - {fileID: 791895249}
+  - {fileID: 1592783534}
+  - {fileID: 1453203451}
+  - {fileID: 1216133822}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1592783531
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,7 +7390,7 @@ GameObject:
   - component: {fileID: 1592783534}
   - component: {fileID: 1592783533}
   - component: {fileID: 1592783532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7445,11 +7493,11 @@ Transform:
   m_GameObject: {fileID: 1592783531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.117808, y: 2.5277267, z: 0}
+  m_LocalPosition: {x: 9.633097, y: 3.3054929, z: 0.064257205}
   m_LocalScale: {x: 0.6912551, y: 0.6912551, z: 0.6912551}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631861903
 GameObject:
@@ -7546,7 +7594,7 @@ GameObject:
   - component: {fileID: 1644405152}
   - component: {fileID: 1644405154}
   - component: {fileID: 1644405153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8266,7 +8314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1811158793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8281,14 +8329,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811158792}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.08, y: -1.91, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 4.5952883, y: -1.1322339, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 838972067}
   - {fileID: 357978863}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1841795899
 GameObject:
@@ -8388,7 +8436,7 @@ GameObject:
   - component: {fileID: 1842006258}
   - component: {fileID: 1842006259}
   - component: {fileID: 1842006260}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8570,7 +8618,7 @@ GameObject:
   - component: {fileID: 1860633676}
   - component: {fileID: 1860633678}
   - component: {fileID: 1860633677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8784,7 +8832,7 @@ GameObject:
   - component: {fileID: 1909848640}
   - component: {fileID: 1909848642}
   - component: {fileID: 1909848641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8996,7 +9044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1926703030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9011,14 +9059,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926703029}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.6859493, y: -1.9300003, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: 2.2012374, y: -1.1522342, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1322494745}
   - {fileID: 824441851}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &2007749277
 GameObject:
@@ -9197,7 +9245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2010522102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cabin (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9212,14 +9260,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010522101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.6859493, y: -0.81734014, z: -0.054520316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.2012377, y: -0.039574027, z: 0.009736888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 456638487}
   - {fileID: 1011950673}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1577955669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2031773606
 GameObject:
@@ -9232,7 +9280,7 @@ GameObject:
   - component: {fileID: 2031773607}
   - component: {fileID: 2031773609}
   - component: {fileID: 2031773608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9696,20 +9744,6 @@ SceneRoots:
   - {fileID: 1317017837}
   - {fileID: 258416503}
   - {fileID: 794848948}
-  - {fileID: 68179423}
-  - {fileID: 842732764}
-  - {fileID: 1926703030}
-  - {fileID: 614262129}
-  - {fileID: 2010522102}
-  - {fileID: 1811158793}
-  - {fileID: 427619341}
-  - {fileID: 810221897}
-  - {fileID: 95152162}
-  - {fileID: 611335315}
-  - {fileID: 37192436}
-  - {fileID: 791895249}
-  - {fileID: 1592783534}
-  - {fileID: 1453203451}
-  - {fileID: 1216133822}
   - {fileID: 1200225808}
   - {fileID: 2108357676}
+  - {fileID: 1577955669}
