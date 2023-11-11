@@ -5,6 +5,7 @@ using UnityEngine;
 public class CountDownTimer : MonoBehaviour
 {
     public float countDownTimer = 60f;
+    [SerializeField] WinOrLoseCondition WinOrLoseCondition;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +15,14 @@ public class CountDownTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        countDownTimer -= Time.deltaTime;
-
-        if (countDownTimer <= 0f)
+        if (!WinOrLoseCondition.winCondition)
         {
-            Debug.Log("Out of time!");
-            
+            countDownTimer -= Time.deltaTime;
+
+            if (countDownTimer <= 0f)
+            {
+                Debug.Log("Out of time!");
+            }
         }
     }
 }

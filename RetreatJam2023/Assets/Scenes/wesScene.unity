@@ -2217,6 +2217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9ee1feaf70f1964da631a09d6dfb25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 519420035}
+  allCampers: []
+  winCondition: 0
+  loseCondition: 0
 --- !u!1 &530198470
 GameObject:
   m_ObjectHideFlags: 0
