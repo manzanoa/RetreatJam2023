@@ -46,6 +46,7 @@ public class CamperStateManager : MonoBehaviour
     void GetScared(GameObject player)
     {
         m_camperState = CamperState.Terrified;
+        camperMovement.HideFieldOfView();
         //Alert others
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, screamRadius);
         foreach(Collider2D collider in colliders)
@@ -64,6 +65,7 @@ public class CamperStateManager : MonoBehaviour
 
     void CalmDown()
     {
+        camperMovement.ShowFieldOfView();
         m_camperState = CamperState.Idle;
         camperMovement.GoSlow();
         CamperVisual.color = Color.yellow;

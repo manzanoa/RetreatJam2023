@@ -20,7 +20,15 @@ public class CamperMovement : MonoBehaviour
 
         CalculateRandomDirection();
     }
+    public void HideFieldOfView()
+    {
+        fieldOfView.TurnOffLight();
+    }
 
+    public void ShowFieldOfView()
+    {
+        fieldOfView.TurnOnLight();
+    }
     public void GoFast()
     {
         moveSpeed = moveSpeed * 2;
@@ -108,7 +116,11 @@ public class CamperMovement : MonoBehaviour
         if (collision.transform.GetComponent<PlayerMovement>() != null)
         {
             Destroy(fieldOfView.gameObject);
-            FindObjectOfType<WinOrLoseCondition>().CamperDied(this);
+            if (FindObjectOfType<WinOrLoseCondition>() != null)
+            {
+                FindObjectOfType<WinOrLoseCondition>().CamperDied(this);
+            }
+            GetComponent<CamperStateManager>().FoundPlayer(collision.gameObject);
             Destroy(this.gameObject);
         }
         else

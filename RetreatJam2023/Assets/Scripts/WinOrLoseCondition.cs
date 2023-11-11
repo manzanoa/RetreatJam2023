@@ -33,8 +33,5 @@ public class WinOrLoseCondition : MonoBehaviour
         {
             loseCondition = true;
         }
-       
-        Debug.Log(timer.countDownTimer);
-        Debug.Log(allCampers.Count);
     }
 }

@@ -19,6 +19,17 @@ public class FieldOfView : MonoBehaviour
     {
         camperState = camperStateManager;
     }
+
+    public void TurnOffLight()
+    {
+        GetComponent<MeshRenderer>().enabled = false;
+    }
+
+    public void TurnOnLight()
+    {
+        GetComponent<MeshRenderer>().enabled = true;
+    }
+
     void Start()
     {
         mesh = new Mesh();
