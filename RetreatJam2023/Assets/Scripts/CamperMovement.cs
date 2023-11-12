@@ -115,7 +115,10 @@ public class CamperMovement : MonoBehaviour
     {
         if (collision.transform.GetComponent<PlayerMovement>() != null)
         {
-            Destroy(fieldOfView.gameObject);
+            if (fieldOfView)
+            {
+                Destroy(fieldOfView.gameObject);
+            }
             if (FindObjectOfType<WinOrLoseCondition>() != null)
             {
                 FindObjectOfType<WinOrLoseCondition>().CamperDied(this);

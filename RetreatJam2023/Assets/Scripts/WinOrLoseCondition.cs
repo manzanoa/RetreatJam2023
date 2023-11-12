@@ -14,24 +14,33 @@ public class WinOrLoseCondition : MonoBehaviour
     public void CamperDied(CamperMovement camper)
     {
         allCampers.Remove(camper);
-        if(allCampers.Count == 0)
+        FindObjectOfType<UIController>().UpdateCamperCount(allCampers.Count);
+        if (allCampers.Count == 0)
         {
             winCondition = true;
-        } 
+            FindObjectOfType<UIController>().Win();
+            Time.timeScale = 0;
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         allCampers = FindObjectsOfType<CamperMovement>().ToList<CamperMovement>();
+        FindObjectOfType<UIController>().UpdateCamperCount(allCampers.Count);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timer.countDownTimer <= 0)
+        FindObjectOfType<UIController>().UpdateTimer(timer.countDownTimer);
+        if (timer.countDownTimer <= 0)
         {
             loseCondition = true;
+            FindObjectOfType<UIController>().Lose();
+            Time.timeScale = 0;
+
         }
     }
 }

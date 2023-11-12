@@ -10,6 +10,7 @@ public enum CamperState
 public class CamperStateManager : MonoBehaviour
 {
     [SerializeField] SpriteRenderer CamperVisual;
+    [SerializeField] GameObject SuprisedObject;
     [SerializeField] float timeUntilNotScared = 3f;
     [SerializeField] float screamRadius = 3f;
     float timerSinceLastSeenPlayer;
@@ -61,6 +62,7 @@ public class CamperStateManager : MonoBehaviour
         Vector2 dir = (transform.position - player.transform.position).normalized;
         camperMovement.ChangeDirection(dir);
         CamperVisual.color = Color.red;
+        SuprisedObject.SetActive(true);
     }
 
     void CalmDown()
@@ -68,6 +70,7 @@ public class CamperStateManager : MonoBehaviour
         camperMovement.ShowFieldOfView();
         m_camperState = CamperState.Idle;
         camperMovement.GoSlow();
+        SuprisedObject.SetActive(false);
         CamperVisual.color = Color.yellow;
     }
 

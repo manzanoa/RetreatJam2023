@@ -18,11 +18,6 @@ public class CountDownTimer : MonoBehaviour
         if (!WinOrLoseCondition.winCondition)
         {
             countDownTimer -= Time.deltaTime;
-
-            if (countDownTimer <= 0f)
-            {
-                Debug.Log("Out of time!");
-            }
         }
     }
 }
