@@ -6,6 +6,8 @@ using UnityEngine;
 public class CamperMovement : MonoBehaviour
 {
     Vector2 moveDirection;
+    [SerializeField] List<AudioClip> deathClips;
+    [SerializeField] AudioSource audioSource;
     [SerializeField] Animator animator;
     [SerializeField] float moveSpeed;
     [SerializeField] FieldOfView fieldOfView;
@@ -131,6 +133,9 @@ public class CamperMovement : MonoBehaviour
     {
         GetComponent<CamperStateManager>().Dying();
         dying = true;
+        int RandomDeathIndexClip = Random.Range(0, deathClips.Count);
+        audioSource.clip = deathClips[RandomDeathIndexClip];
+        audioSource.Play();
         GetComponent<Animator>().SetTrigger("Dead");
         if (fieldOfView)
         {
@@ -146,10 +151,14 @@ public class CamperMovement : MonoBehaviour
             {
                 Destroy(fieldOfView.gameObject);
             }
-            GetComponent<CamperStateManager>().FoundPlayer(collision.gameObject);
+            GetComponent<CamperStateManager>().FoundPlayer(collision.gameObject, true);
             GetComponent<CamperStateManager>().Dying();
             dying = true;
+            int RandomDeathIndexClip = Random.Range(0, deathClips.Count);
+            audioSource.clip = deathClips[RandomDeathIndexClip];
+            audioSource.Play();
             GetComponent<Animator>().SetTrigger("Dead");
+
         }
         else
         {

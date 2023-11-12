@@ -9,6 +9,8 @@ public enum CamperState
 }
 public class CamperStateManager : MonoBehaviour
 {
+    [SerializeField] List<AudioClip> FrieghtendAudio;
+    [SerializeField] AudioSource audioSource;
     [SerializeField] SpriteRenderer CamperVisual;
     [SerializeField] GameObject SuprisedObject;
     [SerializeField] float timeUntilNotScared = 3f;
@@ -22,11 +24,11 @@ public class CamperStateManager : MonoBehaviour
     }
 
 
-    public void FoundPlayer(GameObject player)
+    public void FoundPlayer(GameObject player, bool fromDeath = false)
     {
         if (m_camperState == CamperState.Idle)
         {
-            GetScared(player);
+            GetScared(player, fromDeath);
         }
         timerSinceLastSeenPlayer = Time.time;
     }
@@ -44,8 +46,15 @@ public class CamperStateManager : MonoBehaviour
         }
     }
 
-    void GetScared(GameObject player)
+    void GetScared(GameObject player, bool goingToDie)
     {
+
+        if (!goingToDie)
+        {
+            int randomScaredIndex = Random.Range(0, FrieghtendAudio.Count);
+            audioSource.clip = FrieghtendAudio[randomScaredIndex];
+            audioSource.Play();
+        }
         m_camperState = CamperState.Terrified;
         camperMovement.HideFieldOfView();
         //Alert others

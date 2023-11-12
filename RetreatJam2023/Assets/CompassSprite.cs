@@ -48,6 +48,7 @@ public class CompassSprite : MonoBehaviour
             m_light.SetActive(false);
             sprite.sprite = null;
             GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<AudioSource>().Play();
 
             StartCoroutine(ShowClosestCamper(5));
         }

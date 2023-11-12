@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: ea3d7ec9612b2e741bb2a76b4bc500cc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cabins16x16GridFullRes_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3840
+        width: 2240
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f92b501c150b4089069f07c9a552a
+      internalID: 186490823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabins16x16GridFullRes_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1280
+        height: 2240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a059946b2fbe7f84aa3e4aeefcec781b
+      internalID: 875263389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabins16x16GridFullRes_97
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 2240
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c697f38cdaad46ab60e0e15a9dfb4
+      internalID: 240300481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cabins16x16GridFullRes_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1280
+        height: 2240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a847209a6459b324d9e7fa36824542ac
+      internalID: 981182333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cabins16x16GridFullRes_0: 860024055
+      Cabins16x16GridFullRes_1: 882778452
+      Cabins16x16GridFullRes_10: 453592670
+      Cabins16x16GridFullRes_100: 1030406650
+      Cabins16x16GridFullRes_101: -2057328122
+      Cabins16x16GridFullRes_102: -421922946
+      Cabins16x16GridFullRes_103: -1353276346
+      Cabins16x16GridFullRes_104: -134294954
+      Cabins16x16GridFullRes_105: -33784700
+      Cabins16x16GridFullRes_106: -831092138
+      Cabins16x16GridFullRes_107: 330716339
+      Cabins16x16GridFullRes_108: -1878497312
+      Cabins16x16GridFullRes_109: 1655454069
+      Cabins16x16GridFullRes_11: 1315650124
+      Cabins16x16GridFullRes_110: 1925277246
+      Cabins16x16GridFullRes_111: 1236279359
+      Cabins16x16GridFullRes_112: 981182333
+      Cabins16x16GridFullRes_113: -1440117901
+      Cabins16x16GridFullRes_114: -1538274211
+      Cabins16x16GridFullRes_115: -626411743
+      Cabins16x16GridFullRes_12: -886385358
+      Cabins16x16GridFullRes_13: 945843098
+      Cabins16x16GridFullRes_14: 1408627976
+      Cabins16x16GridFullRes_15: 1572271299
+      Cabins16x16GridFullRes_16: 1971217573
+      Cabins16x16GridFullRes_17: -279292052
+      Cabins16x16GridFullRes_18: 1302346779
+      Cabins16x16GridFullRes_19: 289683671
+      Cabins16x16GridFullRes_2: -1045202960
+      Cabins16x16GridFullRes_20: 443810984
+      Cabins16x16GridFullRes_21: 1279348331
+      Cabins16x16GridFullRes_22: -921891324
+      Cabins16x16GridFullRes_23: -1593161943
+      Cabins16x16GridFullRes_24: 79535530
+      Cabins16x16GridFullRes_25: 1107735906
+      Cabins16x16GridFullRes_26: -290093235
+      Cabins16x16GridFullRes_27: -2011520815
+      Cabins16x16GridFullRes_28: 1746211173
+      Cabins16x16GridFullRes_29: -80016470
+      Cabins16x16GridFullRes_3: -1808817722
+      Cabins16x16GridFullRes_30: 1758348673
+      Cabins16x16GridFullRes_31: 2044961359
+      Cabins16x16GridFullRes_32: 1115235863
+      Cabins16x16GridFullRes_33: 424997818
+      Cabins16x16GridFullRes_34: -218384967
+      Cabins16x16GridFullRes_35: -1081152451
+      Cabins16x16GridFullRes_36: 925177432
+      Cabins16x16GridFullRes_37: 186490823
+      Cabins16x16GridFullRes_38: 1854850747
+      Cabins16x16GridFullRes_39: 716398614
+      Cabins16x16GridFullRes_4: 1293797890
+      Cabins16x16GridFullRes_40: -1277157128
+      Cabins16x16GridFullRes_41: -1173353545
+      Cabins16x16GridFullRes_42: 576858462
+      Cabins16x16GridFullRes_43: 1580929343
+      Cabins16x16GridFullRes_44: -425278733
+      Cabins16x16GridFullRes_45: 245275784
+      Cabins16x16GridFullRes_46: -330348457
+      Cabins16x16GridFullRes_47: 2093400711
+      Cabins16x16GridFullRes_48: 1182982176
+      Cabins16x16GridFullRes_49: 1751151174
+      Cabins16x16GridFullRes_5: 843417673
+      Cabins16x16GridFullRes_50: -130887941
+      Cabins16x16GridFullRes_51: 1728697355
+      Cabins16x16GridFullRes_52: -1653536329
+      Cabins16x16GridFullRes_53: 2078950702
+      Cabins16x16GridFullRes_54: -1614118486
+      Cabins16x16GridFullRes_55: -294777414
+      Cabins16x16GridFullRes_56: 875263389
+      Cabins16x16GridFullRes_57: 1055360314
+      Cabins16x16GridFullRes_58: -1733334945
+      Cabins16x16GridFullRes_59: -473968078
+      Cabins16x16GridFullRes_6: 1639384669
+      Cabins16x16GridFullRes_60: 8247293
+      Cabins16x16GridFullRes_61: -1990591127
+      Cabins16x16GridFullRes_62: -929851480
+      Cabins16x16GridFullRes_63: 2118144828
+      Cabins16x16GridFullRes_64: -950046749
+      Cabins16x16GridFullRes_65: -434049824
+      Cabins16x16GridFullRes_66: -559090868
+      Cabins16x16GridFullRes_67: -68936044
+      Cabins16x16GridFullRes_68: -1043113279
+      Cabins16x16GridFullRes_69: 720673797
+      Cabins16x16GridFullRes_7: -1140632233
+      Cabins16x16GridFullRes_70: 446709672
+      Cabins16x16GridFullRes_71: -125371205
+      Cabins16x16GridFullRes_72: 646002049
+      Cabins16x16GridFullRes_73: 8477999
+      Cabins16x16GridFullRes_74: 243985868
+      Cabins16x16GridFullRes_75: 1813395849
+      Cabins16x16GridFullRes_76: -2045420766
+      Cabins16x16GridFullRes_77: -492131227
+      Cabins16x16GridFullRes_78: -1743213400
+      Cabins16x16GridFullRes_79: 1090496182
+      Cabins16x16GridFullRes_8: -127868280
+      Cabins16x16GridFullRes_80: -1993396231
+      Cabins16x16GridFullRes_81: 1174799709
+      Cabins16x16GridFullRes_82: -435494117
+      Cabins16x16GridFullRes_83: 806532140
+      Cabins16x16GridFullRes_84: -243463468
+      Cabins16x16GridFullRes_85: -1891684289
+      Cabins16x16GridFullRes_86: 1020714176
+      Cabins16x16GridFullRes_87: -289566377
+      Cabins16x16GridFullRes_88: 1403468354
+      Cabins16x16GridFullRes_89: 2016503509
+      Cabins16x16GridFullRes_9: -682240790
+      Cabins16x16GridFullRes_90: 58776579
+      Cabins16x16GridFullRes_91: -1095361472
+      Cabins16x16GridFullRes_92: -996969582
+      Cabins16x16GridFullRes_93: -1939042246
+      Cabins16x16GridFullRes_94: 1911132133
+      Cabins16x16GridFullRes_95: 1720111859
+      Cabins16x16GridFullRes_96: -842554403
+      Cabins16x16GridFullRes_97: 240300481
+      Cabins16x16GridFullRes_98: 1664184552
+      Cabins16x16GridFullRes_99: 1080183950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

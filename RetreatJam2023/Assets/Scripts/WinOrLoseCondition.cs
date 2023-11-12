@@ -27,7 +27,7 @@ public class WinOrLoseCondition : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
-        allCampers = FindObjectsOfType<CamperMovement>().ToList<CamperMovement>();
+        allCampers = FindObjectsOfType<CamperMovement>().ToList();
         FindObjectOfType<UIController>().UpdateCamperCount(allCampers.Count);
     }
 

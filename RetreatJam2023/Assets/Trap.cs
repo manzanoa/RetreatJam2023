@@ -9,6 +9,7 @@ public class Trap : MonoBehaviour
         if(collision.GetComponent<PlayerMovement>() != null)
         {
             GetComponent<Animator>().SetTrigger("Trapped");
+            GetComponent<AudioSource>().Play();
             GetComponent<BoxCollider2D>().enabled = false;
             collision.GetComponent<PlayerMovement>().Trapped();
         } else if(collision.GetComponent<CamperMovement>() != null)
@@ -18,6 +19,7 @@ public class Trap : MonoBehaviour
                 GetComponent<Animator>().SetTrigger("Trapped");
                 GetComponent<BoxCollider2D>().enabled = false;
                 collision.GetComponent<CamperMovement>().HitTrap();
+                GetComponent<AudioSource>().Play();
             }
             else
             {

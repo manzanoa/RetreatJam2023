@@ -16,6 +16,7 @@ public class SpeedBoostScript : MonoBehaviour
         if (collision.transform.tag.Equals("Player"))
         {
             pm = collision.transform.GetComponent<PlayerMovement>();
+            GetComponent<AudioSource>().Play();
 
             m_light.SetActive(false);
             pm.GetMad();
