@@ -13,10 +13,16 @@ public class Trap : MonoBehaviour
             collision.GetComponent<PlayerMovement>().Trapped();
         } else if(collision.GetComponent<CamperMovement>() != null)
         {
-            //if (collision.GetComponent<CamperStateManager>().)
-            GetComponent<Animator>().SetTrigger("Trapped");
-            GetComponent<BoxCollider2D>().enabled = false;
-            collision.GetComponent<CamperMovement>().HitTrap();
+            if (collision.GetComponent<CamperStateManager>().m_camperState == CamperState.Terrified)
+            {
+                GetComponent<Animator>().SetTrigger("Trapped");
+                GetComponent<BoxCollider2D>().enabled = false;
+                collision.GetComponent<CamperMovement>().HitTrap();
+            }
+            else
+            {
+                collision.GetComponent<CamperMovement>().MoveInDirectionFromObject(transform.position);
+            }
         }
     }
 }

@@ -149,18 +149,23 @@ public class CamperMovement : MonoBehaviour
         }
         else
         {
-            Vector2 directionOfTouch = (Vector2)transform.position - collision.GetContact(0).point;
-            if (Mathf.Abs(directionOfTouch.x) > Mathf.Abs(directionOfTouch.y))
-            {
-                moveDirection = new Vector2(-moveDirection.x, moveDirection.y);
-            }
-            else
-            {
-                moveDirection = new Vector2(moveDirection.x, -moveDirection.y);
-            }
-            animator.SetFloat("Horizontal", moveDirection.x);
-            animator.SetFloat("Vertical", moveDirection.y);
-            FindMoveDirection();
+            MoveInDirectionFromObject(collision.GetContact(0).point);
         }
+    }
+
+    public void MoveInDirectionFromObject(Vector2 Pos)
+    {
+        Vector2 directionOfTouch = (Vector2)transform.position - Pos;
+        if (Mathf.Abs(directionOfTouch.x) > Mathf.Abs(directionOfTouch.y))
+        {
+            moveDirection = new Vector2(-moveDirection.x, moveDirection.y);
+        }
+        else
+        {
+            moveDirection = new Vector2(moveDirection.x, -moveDirection.y);
+        }
+        animator.SetFloat("Horizontal", moveDirection.x);
+        animator.SetFloat("Vertical", moveDirection.y);
+        FindMoveDirection();
     }
 }
