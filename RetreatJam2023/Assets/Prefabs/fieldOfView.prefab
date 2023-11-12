@@ -50,7 +50,7 @@ MonoBehaviour:
   CamperViewLayer:
     serializedVersion: 2
     m_Bits: 64
-  viewDistance: 3
+  viewDistance: 2.3
   fov: 90
   rayCount: 50
 --- !u!33 &447772354020386485

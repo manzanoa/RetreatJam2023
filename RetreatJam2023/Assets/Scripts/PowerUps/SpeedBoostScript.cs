@@ -9,6 +9,7 @@ public class SpeedBoostScript : MonoBehaviour
     float oldSpeed;
     PlayerMovement pm = null;
     [SerializeField] SpriteRenderer sprite;
+    [SerializeField] GameObject m_light;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,7 +17,11 @@ public class SpeedBoostScript : MonoBehaviour
         {
             pm = collision.transform.GetComponent<PlayerMovement>();
             Time.timeScale = .5f;
-            pm.moveSpeed *= 2;
+            Time.fixedDeltaTime = .01f;
+
+            m_light.SetActive(false);
+            pm.GetMad();
+            GetComponent<BoxCollider2D>().enabled = false;
             sprite.sprite = null;
 
             StartCoroutine(SpeedBoostTime(3));
@@ -28,7 +33,8 @@ public class SpeedBoostScript : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         Time.timeScale = 1;
-        pm.moveSpeed /= 2;
+        Time.fixedDeltaTime = .02f;
+        pm.CalmDown();
 
         pm = null;
 

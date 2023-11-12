@@ -20,8 +20,24 @@ public class PlayerMovement : MonoBehaviour
         m_animator.SetFloat("Vertical", verticalInput);
         m_animator.SetFloat("Speed", new Vector2(horizontalInput, verticalInput).magnitude);
 
-        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f) * moveSpeed * Time.fixedDeltaTime;
+        Vector2 direction = new Vector2(horizontalInput, verticalInput).normalized;
+        float magnitude = new Vector2(horizontalInput, verticalInput).magnitude;
+        if (magnitude > 1) { magnitude = 1; }
+
+        Vector3 movement = direction * magnitude * moveSpeed * Time.fixedDeltaTime;
 
         transform.Translate(movement);
+    }
+
+    public void GetMad()
+    {
+        moveSpeed *= 2.5f;
+        GetComponent<SpriteRenderer>().color = Color.red;
+    }
+
+    public void CalmDown()
+    {
+        moveSpeed /= 2.5f;
+        GetComponent<SpriteRenderer>().color = Color.white;
     }
 }

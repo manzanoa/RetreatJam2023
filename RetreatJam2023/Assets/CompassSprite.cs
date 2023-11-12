@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CompassSprite : MonoBehaviour
 {
+    [SerializeField] GameObject m_light;
     public List<CamperMovement> campers;
 
     public CamperMovement closestCamper;
@@ -17,6 +18,11 @@ public class CompassSprite : MonoBehaviour
     public SpriteRenderer sprite;
 
     public static bool inUse = false;
+
+    private void Start()
+    {
+        wlc = FindObjectOfType<WinOrLoseCondition>();
+    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -39,10 +45,11 @@ public class CompassSprite : MonoBehaviour
                 }
             }
 
-            StartCoroutine(ShowClosestCamper(5));
-
+            m_light.SetActive(false);
             sprite.sprite = null;
+            GetComponent<BoxCollider2D>().enabled = false;
 
+            StartCoroutine(ShowClosestCamper(5));
         }
     }
 
@@ -63,10 +70,10 @@ public class CompassSprite : MonoBehaviour
 
             dir = newArrow.transform.position - closestCamper.transform.position;
             dir.Normalize();
-            newArrow.transform.rotation = Quaternion.Euler(0, 0, (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) + 90);
+            Quaternion newRot = Quaternion.Euler(0, 0, (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) + 90);
+            newArrow.transform.rotation = Quaternion.Lerp(newArrow.transform.rotation, newRot, .2f);
 
-
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
         }
 
         inUse = false;
