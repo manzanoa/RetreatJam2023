@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1420193130093871545}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.37, z: 0}
+  m_LocalPosition: {x: 0, y: 1.93, z: 0}
   m_LocalScale: {x: 0.50503, y: 0.50503, z: 0.50503}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1102422858, guid: 929a18dc78e351f4e972eb8c479b2789, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -142,7 +142,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -163,7 +163,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -848495039, guid: 929a18dc78e351f4e972eb8c479b2789, type: 3}
+  m_Sprite: {fileID: 951656060, guid: 381ed147605389448b326759fac1e0f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -229,7 +229,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.56499994
+  m_Radius: 1.78
 --- !u!50 &1206385279109840325
 Rigidbody2D:
   serializedVersion: 4
@@ -273,6 +273,14 @@ MonoBehaviour:
   moveSpeed: 1
   fieldOfView: {fileID: 8847884743858778743, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
   fieldOfViewPrefab: {fileID: 1367885405492333079, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
+  BodyParts:
+  - {fileID: 7272635215011442361, guid: 3bc9e4effa94a3e4bb05564836296dcd, type: 3}
+  - {fileID: 6564439664410199196, guid: 4cb5bea5980f8ee47a6839582337914f, type: 3}
+  - {fileID: 5108376583028967459, guid: 4a3c3f8595e6e084b9748ee5ff6f94da, type: 3}
+  - {fileID: 2943614165054211170, guid: 7ebd3db05da124e48a971e7db38dc162, type: 3}
+  - {fileID: 7494284623077100955, guid: c94d984329385cb458fc675592913b2b, type: 3}
+  - {fileID: 4178272473134644513, guid: f8e8515dbbd68b14faa918af3178bc59, type: 3}
+  - {fileID: 2502565402687539215, guid: f5e12a7b450044a40917b6cfc85596e3, type: 3}
 --- !u!114 &-2893793970238514354
 MonoBehaviour:
   m_ObjectHideFlags: 0

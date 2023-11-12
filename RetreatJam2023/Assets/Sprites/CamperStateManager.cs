@@ -71,7 +71,13 @@ public class CamperStateManager : MonoBehaviour
         m_camperState = CamperState.Idle;
         camperMovement.GoSlow();
         SuprisedObject.SetActive(false);
-        CamperVisual.color = Color.yellow;
+        CamperVisual.color = Color.white;
+    }
+
+    public void Dying()
+    {
+        CamperVisual.color = Color.white;
+
     }
 
     private void OnDrawGizmos()

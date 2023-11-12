@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
         m_animator.SetFloat("Vertical", verticalInput);
         m_animator.SetFloat("Speed", new Vector2(horizontalInput, verticalInput).magnitude);
 
-        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f) * moveSpeed * Time.deltaTime;
+        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f) * moveSpeed * Time.fixedDeltaTime;
 
         transform.Translate(movement);
     }
