@@ -33,12 +33,12 @@ public class CamperMovement : MonoBehaviour
     }
     public void GoFast()
     {
-        moveSpeed = moveSpeed * 2;
+        moveSpeed = moveSpeed * 3;
     }
 
     public void GoSlow()
     {
-        moveSpeed = moveSpeed / 2;
+        moveSpeed = moveSpeed / 3;
     }
 
     public void ChangeDirection(Vector2 dir)

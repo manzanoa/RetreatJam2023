@@ -63,6 +63,8 @@ public class CamperStateManager : MonoBehaviour
         camperMovement.ChangeDirection(dir);
         CamperVisual.color = Color.red;
         SuprisedObject.SetActive(true);
+        FindAnyObjectByType<AudioManager>().SomeoneScared();
+
     }
 
     void CalmDown()
@@ -72,11 +74,14 @@ public class CamperStateManager : MonoBehaviour
         camperMovement.GoSlow();
         SuprisedObject.SetActive(false);
         CamperVisual.color = Color.white;
+
+        FindAnyObjectByType<AudioManager>().SomoneChill();
     }
 
     public void Dying()
     {
         CamperVisual.color = Color.white;
+        FindAnyObjectByType<AudioManager>().SomeoneDead();
 
     }
 

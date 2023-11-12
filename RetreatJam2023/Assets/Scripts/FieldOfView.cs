@@ -22,12 +22,24 @@ public class FieldOfView : MonoBehaviour
 
     public void TurnOffLight()
     {
-        GetComponent<MeshRenderer>().enabled = false;
+        if (isActiveAndEnabled)
+        {
+            if (GetComponent<MeshRenderer>())
+            {
+                GetComponent<MeshRenderer>().enabled = false;
+            }
+        }
     }
 
     public void TurnOnLight()
     {
-        GetComponent<MeshRenderer>().enabled = true;
+        if (isActiveAndEnabled)
+        {
+            if (GetComponent<MeshRenderer>())
+            {
+                GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
     }
 
     void Start()

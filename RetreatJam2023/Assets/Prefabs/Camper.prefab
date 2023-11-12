@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8615904647460529849}
-  moveSpeed: 1
+  moveSpeed: 0.5
   fieldOfView: {fileID: 8847884743858778743, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
   fieldOfViewPrefab: {fileID: 1367885405492333079, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
   BodyParts:
@@ -298,6 +298,7 @@ MonoBehaviour:
   SuprisedObject: {fileID: 1420193130093871545}
   timeUntilNotScared: 3
   screamRadius: 2
+  m_camperState: 1
 --- !u!114 &101517397326007946
 MonoBehaviour:
   m_ObjectHideFlags: 0

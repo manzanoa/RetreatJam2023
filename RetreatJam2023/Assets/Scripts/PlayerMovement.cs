@@ -35,13 +35,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void GetMad()
     {
-        moveSpeed *= 2.5f;
+        moveSpeed *= 3f;
         GetComponent<SpriteRenderer>().color = Color.red;
     }
 
     public void CalmDown()
     {
-        moveSpeed /= 2.5f;
+        moveSpeed /= 3f;
         GetComponent<SpriteRenderer>().color = Color.white;
     }
 
