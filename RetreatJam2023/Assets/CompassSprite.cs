@@ -56,7 +56,6 @@ public class CompassSprite : MonoBehaviour
     IEnumerator ShowClosestCamper(float time)
     {
         float currentTime = 0f;
-        Debug.Log("Showing closest camper");
 
         Vector2 dir = arrow.transform.position - closestCamper.transform.position;
         dir.Normalize();

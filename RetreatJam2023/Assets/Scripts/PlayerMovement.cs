@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+   // [SerializeField]
     public float moveSpeed = 5f;  // Movement speed
     public Animator m_animator;
     bool trapped = false;
@@ -35,13 +36,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void GetMad()
     {
-        moveSpeed *= 3f;
+        moveSpeed *= 2f;
         GetComponent<SpriteRenderer>().color = Color.red;
     }
 
     public void CalmDown()
     {
-        moveSpeed /= 3f;
+        moveSpeed /= 2f;
         GetComponent<SpriteRenderer>().color = Color.white;
     }
 

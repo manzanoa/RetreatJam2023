@@ -16,8 +16,6 @@ public class SpeedBoostScript : MonoBehaviour
         if (collision.transform.tag.Equals("Player"))
         {
             pm = collision.transform.GetComponent<PlayerMovement>();
-            Time.timeScale = .5f;
-            Time.fixedDeltaTime = .01f;
 
             m_light.SetActive(false);
             pm.GetMad();
@@ -32,8 +30,6 @@ public class SpeedBoostScript : MonoBehaviour
     IEnumerator SpeedBoostTime(float time)
     {
         yield return new WaitForSeconds(time);
-        Time.timeScale = 1;
-        Time.fixedDeltaTime = .02f;
         pm.CalmDown();
 
         pm = null;
