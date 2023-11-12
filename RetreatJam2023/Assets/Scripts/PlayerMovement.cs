@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-   // [SerializeField]
+    [SerializeField] AudioSource WalkingAudio;
     public float moveSpeed = 5f;  // Movement speed
     public Animator m_animator;
     bool trapped = false;
@@ -27,6 +27,20 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 direction = new Vector2(horizontalInput, verticalInput).normalized;
         float magnitude = new Vector2(horizontalInput, verticalInput).magnitude;
+        if (magnitude > .1f)
+        {
+            if (!WalkingAudio.isPlaying)
+            {
+                WalkingAudio.Play();
+            }
+        }
+        else
+        {
+            if (WalkingAudio.isPlaying)
+            {
+                WalkingAudio.Stop();
+            }
+        }
         if (magnitude > 1) { magnitude = 1; }
 
         Vector3 movement = direction * magnitude * moveSpeed * Time.fixedDeltaTime;
