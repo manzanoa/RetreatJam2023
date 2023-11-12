@@ -43,6 +43,13 @@ public class FieldOfView : MonoBehaviour
         {
             camperState.FoundPlayer(other.gameObject);
         }
+        else if (other.GetComponent<CamperMovement>() != null)
+        {
+            if (other.GetComponent<CamperStateManager>().m_camperState == CamperState.Terrified)
+            {
+                camperState.FoundPlayer(FindObjectOfType<PlayerMovement>().gameObject);
+            }
+        }
     }
 
     void CreateFieldOfView()

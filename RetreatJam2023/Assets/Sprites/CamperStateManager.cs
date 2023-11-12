@@ -14,7 +14,7 @@ public class CamperStateManager : MonoBehaviour
     [SerializeField] float timeUntilNotScared = 3f;
     [SerializeField] float screamRadius = 3f;
     float timerSinceLastSeenPlayer;
-    CamperState m_camperState = CamperState.Idle;
+    public CamperState m_camperState = CamperState.Idle;
     CamperMovement camperMovement;
     private void Start()
     {
