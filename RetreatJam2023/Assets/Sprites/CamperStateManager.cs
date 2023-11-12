@@ -14,7 +14,7 @@ public class CamperStateManager : MonoBehaviour
     [SerializeField] float timeUntilNotScared = 3f;
     [SerializeField] float screamRadius = 3f;
     float timerSinceLastSeenPlayer;
-    CamperState m_camperState = CamperState.Idle;
+    public CamperState m_camperState = CamperState.Idle;
     CamperMovement camperMovement;
     private void Start()
     {
@@ -63,6 +63,8 @@ public class CamperStateManager : MonoBehaviour
         camperMovement.ChangeDirection(dir);
         CamperVisual.color = Color.red;
         SuprisedObject.SetActive(true);
+        FindAnyObjectByType<AudioManager>().SomeoneScared();
+
     }
 
     void CalmDown()
@@ -71,7 +73,16 @@ public class CamperStateManager : MonoBehaviour
         m_camperState = CamperState.Idle;
         camperMovement.GoSlow();
         SuprisedObject.SetActive(false);
-        CamperVisual.color = Color.yellow;
+        CamperVisual.color = Color.white;
+
+        FindAnyObjectByType<AudioManager>().SomoneChill();
+    }
+
+    public void Dying()
+    {
+        CamperVisual.color = Color.white;
+        FindAnyObjectByType<AudioManager>().SomeoneDead();
+
     }
 
     private void OnDrawGizmos()

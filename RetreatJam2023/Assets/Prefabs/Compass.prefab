@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 227196691331742820}
   - component: {fileID: 4484552313416187620}
   - component: {fileID: 1990536762960845416}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Compass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -149,4 +149,3 @@ MonoBehaviour:
   pm: {fileID: 0}
   wlc: {fileID: 0}
   sprite: {fileID: 227196691331742820}
-  inUse: 0

@@ -10,6 +10,8 @@ public class CamperMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] FieldOfView fieldOfView;
     [SerializeField] GameObject fieldOfViewPrefab;
+    [SerializeField] List<GameObject> BodyParts;
+    bool dying = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,12 +33,12 @@ public class CamperMovement : MonoBehaviour
     }
     public void GoFast()
     {
-        moveSpeed = moveSpeed * 2;
+        moveSpeed = moveSpeed * 3;
     }
 
     public void GoSlow()
     {
-        moveSpeed = moveSpeed / 2;
+        moveSpeed = moveSpeed / 3;
     }
 
     public void ChangeDirection(Vector2 dir)
@@ -65,9 +67,12 @@ public class CamperMovement : MonoBehaviour
 
     void Move()
     {
-        Vector3 movement = moveDirection * moveSpeed * Time.deltaTime;
+        if (!dying)
+        {
+            Vector3 movement = moveDirection * moveSpeed * Time.fixedDeltaTime;
 
-        transform.Translate(movement);
+            transform.Translate(movement);
+        }
     }
 
     void CalculateRandomDirection()
@@ -81,7 +86,7 @@ public class CamperMovement : MonoBehaviour
 
 
         //Always be moving
-        animator.SetFloat("Speed", 1f);
+       // animator.SetFloat("Speed", 1f);
         FindMoveDirection();
     }
 
@@ -111,6 +116,28 @@ public class CamperMovement : MonoBehaviour
         }
     }
 
+    public void DeathEvent()
+    {
+        if (FindObjectOfType<WinOrLoseCondition>() != null)
+        {
+            FindObjectOfType<WinOrLoseCondition>().CamperDied(this);
+        }
+        int randomIndex = Random.Range(0, BodyParts.Count);
+        Instantiate(BodyParts[randomIndex], transform.position, Quaternion.identity);
+        Destroy(this.gameObject);
+    }
+
+    public void HitTrap()
+    {
+        GetComponent<CamperStateManager>().Dying();
+        dying = true;
+        GetComponent<Animator>().SetTrigger("Dead");
+        if (fieldOfView)
+        {
+            Destroy(fieldOfView.gameObject);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.GetComponent<PlayerMovement>() != null)
@@ -119,27 +146,30 @@ public class CamperMovement : MonoBehaviour
             {
                 Destroy(fieldOfView.gameObject);
             }
-            if (FindObjectOfType<WinOrLoseCondition>() != null)
-            {
-                FindObjectOfType<WinOrLoseCondition>().CamperDied(this);
-            }
             GetComponent<CamperStateManager>().FoundPlayer(collision.gameObject);
-            Destroy(this.gameObject);
+            GetComponent<CamperStateManager>().Dying();
+            dying = true;
+            GetComponent<Animator>().SetTrigger("Dead");
         }
         else
         {
-            Vector2 directionOfTouch = (Vector2)transform.position - collision.GetContact(0).point;
-            if (Mathf.Abs(directionOfTouch.x) > Mathf.Abs(directionOfTouch.y))
-            {
-                moveDirection = new Vector2(-moveDirection.x, moveDirection.y);
-            }
-            else
-            {
-                moveDirection = new Vector2(moveDirection.x, -moveDirection.y);
-            }
-            animator.SetFloat("Horizontal", moveDirection.x);
-            animator.SetFloat("Vertical", moveDirection.y);
-            FindMoveDirection();
+            MoveInDirectionFromObject(collision.GetContact(0).point);
         }
+    }
+
+    public void MoveInDirectionFromObject(Vector2 Pos)
+    {
+        Vector2 directionOfTouch = (Vector2)transform.position - Pos;
+        if (Mathf.Abs(directionOfTouch.x) > Mathf.Abs(directionOfTouch.y))
+        {
+            moveDirection = new Vector2(-moveDirection.x, moveDirection.y);
+        }
+        else
+        {
+            moveDirection = new Vector2(moveDirection.x, -moveDirection.y);
+        }
+        animator.SetFloat("Horizontal", moveDirection.x);
+        animator.SetFloat("Vertical", moveDirection.y);
+        FindMoveDirection();
     }
 }

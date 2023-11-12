@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpeedBoostScript : MonoBehaviour
@@ -8,13 +9,17 @@ public class SpeedBoostScript : MonoBehaviour
     float oldSpeed;
     PlayerMovement pm = null;
     [SerializeField] SpriteRenderer sprite;
-    private void OnCollisionEnter2D(Collision2D collision)
+    [SerializeField] GameObject m_light;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.transform.tag.Equals("Player"))
+        if (collision.transform.tag.Equals("Player"))
         {
             pm = collision.transform.GetComponent<PlayerMovement>();
-            Time.timeScale = .5f;
-            pm.moveSpeed *= 2;
+
+            m_light.SetActive(false);
+            pm.GetMad();
+            GetComponent<BoxCollider2D>().enabled = false;
             sprite.sprite = null;
 
             StartCoroutine(SpeedBoostTime(3));
@@ -25,8 +30,7 @@ public class SpeedBoostScript : MonoBehaviour
     IEnumerator SpeedBoostTime(float time)
     {
         yield return new WaitForSeconds(time);
-        Time.timeScale = 1;
-        pm.moveSpeed /= 2;
+        pm.CalmDown();
 
         pm = null;
 

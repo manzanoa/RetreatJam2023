@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CompassSprite : MonoBehaviour
 {
+    [SerializeField] GameObject m_light;
     public List<CamperMovement> campers;
 
     public CamperMovement closestCamper;
@@ -16,13 +17,19 @@ public class CompassSprite : MonoBehaviour
 
     public SpriteRenderer sprite;
 
-    public bool inUse = false;
+    public static bool inUse = false;
+
+    private void Start()
+    {
+        wlc = FindObjectOfType<WinOrLoseCondition>();
+    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag.Equals("Player") && !inUse)
         {
+            inUse = true;
             pm = collision.GetComponent<PlayerMovement>();
             campers = wlc.allCampers;
             float closestDist = Mathf.Infinity;
@@ -38,17 +45,17 @@ public class CompassSprite : MonoBehaviour
                 }
             }
 
-            StartCoroutine(ShowClosestCamper(5));
-
+            m_light.SetActive(false);
             sprite.sprite = null;
+            GetComponent<BoxCollider2D>().enabled = false;
 
+            StartCoroutine(ShowClosestCamper(5));
         }
     }
 
     IEnumerator ShowClosestCamper(float time)
     {
         float currentTime = 0f;
-        Debug.Log("Showing closest camper");
 
         Vector2 dir = arrow.transform.position - closestCamper.transform.position;
         dir.Normalize();
@@ -62,12 +69,16 @@ public class CompassSprite : MonoBehaviour
 
             dir = newArrow.transform.position - closestCamper.transform.position;
             dir.Normalize();
-            newArrow.transform.rotation = Quaternion.Euler(0, 0, (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) + 90);
+            Quaternion newRot = Quaternion.Euler(0, 0, (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) + 90);
+            newArrow.transform.rotation = Quaternion.Lerp(newArrow.transform.rotation, newRot, .2f);
 
-
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
         }
+
+        inUse = false;
+
         Destroy(newArrow);
+
         Destroy(this);
     }
 }

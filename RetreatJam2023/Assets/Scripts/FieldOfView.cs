@@ -22,12 +22,24 @@ public class FieldOfView : MonoBehaviour
 
     public void TurnOffLight()
     {
-        GetComponent<MeshRenderer>().enabled = false;
+        if (isActiveAndEnabled)
+        {
+            if (GetComponent<MeshRenderer>())
+            {
+                GetComponent<MeshRenderer>().enabled = false;
+            }
+        }
     }
 
     public void TurnOnLight()
     {
-        GetComponent<MeshRenderer>().enabled = true;
+        if (isActiveAndEnabled)
+        {
+            if (GetComponent<MeshRenderer>())
+            {
+                GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
     }
 
     void Start()
@@ -42,6 +54,13 @@ public class FieldOfView : MonoBehaviour
         if (other.GetComponent<PlayerMovement>() != null)
         {
             camperState.FoundPlayer(other.gameObject);
+        }
+        else if (other.GetComponent<CamperMovement>() != null)
+        {
+            if (other.GetComponent<CamperStateManager>().m_camperState == CamperState.Terrified)
+            {
+                camperState.FoundPlayer(FindObjectOfType<PlayerMovement>().gameObject);
+            }
         }
     }
 
