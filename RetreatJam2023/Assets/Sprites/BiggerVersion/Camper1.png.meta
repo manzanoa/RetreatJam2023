@@ -1,0 +1,2076 @@
+fileFormatVersion: 2
+guid: 030a343d1f2e53a479e495cdf4f70c93
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Camper1_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 5770
+        width: 498
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ca29e084d258346ad67915129b1c34
+      internalID: 1437125694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_1
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 5758
+        width: 516
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f229e061463442d41afc199b2dc520c0
+      internalID: 928975968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_2
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 5770
+        width: 497
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829689ce869f5da40a7fd0a65dd99579
+      internalID: 1943924117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_3
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 5770
+        width: 497
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e8441c688d88b4e863894e29888e3f
+      internalID: 1706595635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_4
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 5770
+        width: 497
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255520d3e7d92a34780bdb4a8b99b98b
+      internalID: 700732639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_5
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 5758
+        width: 512
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15af1ceb86492347a3a3cb36c07e711
+      internalID: -855796612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_6
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 5770
+        width: 497
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a647d61ece7fee43a164290282b24ce
+      internalID: -280696868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_7
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 5770
+        width: 497
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f7799473a84846923359dee2dc0e3
+      internalID: 707902776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_8
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 5823
+        width: 457
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aa50a268b27724fbdd297c57453346
+      internalID: -1099157456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_9
+      rect:
+        serializedVersion: 2
+        x: 5792
+        y: 5789
+        width: 585
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b0c25754c20f4db1b39c85e649726
+      internalID: -264660285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 5155
+        width: 546
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5438539ffdf6e6744b981e9a0ad06f3a
+      internalID: 1840530154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 5136
+        width: 544
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24917ab09dc9274cbb84bb6af1ae934
+      internalID: -929659708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 5155
+        width: 546
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ef46fa0e5dda4488e8fdfe1a831525
+      internalID: 1243473245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_13
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 5145
+        width: 543
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c642e9a8ad834d95734c6b4d77b90
+      internalID: 180637491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_14
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 5155
+        width: 546
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc5d4a735b28a54bb4b8cce97b19e59
+      internalID: 1587942516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_15
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 5136
+        width: 544
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968d71433a3c5d4b91473577687c3dd
+      internalID: 1760957451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_16
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 5155
+        width: 547
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14602ea2d7d02634e842cbbf01d85249
+      internalID: -1167592586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_17
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 5145
+        width: 544
+        height: 569
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2472467148d35ce4c9de40561190559f
+      internalID: 847130115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_18
+      rect:
+        serializedVersion: 2
+        x: 5173
+        y: 5620
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca39f9919e2a87646bedd096b3a47d15
+      internalID: 1170303360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_19
+      rect:
+        serializedVersion: 2
+        x: 5277
+        y: 5648
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9026edfbb047a54da2d06d6506a5d7f
+      internalID: 867635083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_20
+      rect:
+        serializedVersion: 2
+        x: 5408
+        y: 5648
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99246eff0e92c7a49a4787842f3df169
+      internalID: 350916442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_21
+      rect:
+        serializedVersion: 2
+        x: 5508
+        y: 5648
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f04ce5f8f48bb41b5b6baeb3db1c98
+      internalID: -799241649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_22
+      rect:
+        serializedVersion: 2
+        x: 5611
+        y: 5608
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406121cf943fab40897eb94181377b1
+      internalID: 154203261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_23
+      rect:
+        serializedVersion: 2
+        x: 6158
+        y: 5562
+        width: 134
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4800416c6c5aa64d903237abd07cce9
+      internalID: 824134744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_24
+      rect:
+        serializedVersion: 2
+        x: 5295
+        y: 5327
+        width: 300
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656ec6b9ba3a08c4c8aaf1cdf61142e1
+      internalID: 1877295030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_25
+      rect:
+        serializedVersion: 2
+        x: 5652
+        y: 5564
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd39c6e00d80bb4c846ac8dd28a149c
+      internalID: -1059076971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_26
+      rect:
+        serializedVersion: 2
+        x: 5836
+        y: 5517
+        width: 131
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826d7f85d657f854e9f2912f964cb36b
+      internalID: 706208730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_27
+      rect:
+        serializedVersion: 2
+        x: 5933
+        y: 5383
+        width: 243
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c3c5b8c9a22a9459e00749640bad61
+      internalID: 615539315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_28
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 5470
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0603470f57e81b4597edd8d1c8d2701
+      internalID: -1499397375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_29
+      rect:
+        serializedVersion: 2
+        x: 5636
+        y: 5420
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0bfc7ef8219ee4481ee9ed05c44fc6
+      internalID: 532160429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_30
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 5211
+        width: 137
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3099aa7e8d0343c4eae300706863253c
+      internalID: -539734593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_31
+      rect:
+        serializedVersion: 2
+        x: 5633
+        y: 5305
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eb64a32d81a0349ada6361e0c77d06
+      internalID: 1473093046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_32
+      rect:
+        serializedVersion: 2
+        x: 5314
+        y: 5192
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3c8c374b98ac641adf27eb61c8a530
+      internalID: 606216215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_33
+      rect:
+        serializedVersion: 2
+        x: 5505
+        y: 5152
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae4e868de636742abfb18a8ad18e2c
+      internalID: -710412815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_34
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 5173
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d79fba2c23c894ba812b51b9c892a7
+      internalID: 1153830084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_35
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 4505
+        width: 547
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95b264052001b24593cab651d1713f5
+      internalID: 1117745531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_36
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 4486
+        width: 547
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bacc57976f56bf42af53215e0a7470e
+      internalID: -2145525003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_37
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 4505
+        width: 544
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd561df313cfc2949982278d80783758
+      internalID: 813884213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_38
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 4486
+        width: 547
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d42e994249ed1468666519ca611585
+      internalID: -679708513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_39
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 4505
+        width: 547
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cc70d919818a4469641d4688e2638a
+      internalID: 542686684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_40
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 4486
+        width: 546
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e265ec22836ee4c8af3ec7468ef664
+      internalID: 481129159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_41
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 4505
+        width: 546
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4609d37882d1b6d45b0d63cdfdc2f08b
+      internalID: -1511849670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_42
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 4486
+        width: 547
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a0be4eefa30d14ca52c5250c8a9835
+      internalID: 971112963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_43
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 4983
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1435e3a0b0cb548b68f2837d957bed
+      internalID: 1305809310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_44
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 4952
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b090ad2b0841b42b39bf8789638e29
+      internalID: 1798270158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_45
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 4964
+        width: 75
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d7575d45cb81b4a8ee84ff045011a6
+      internalID: 2053984609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_46
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 5005
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cff678a00967d4d83a0e595f4b2e7c
+      internalID: -741628991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_47
+      rect:
+        serializedVersion: 2
+        x: 5483
+        y: 4808
+        width: 140
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa11f7357b24754789d6ed675365721
+      internalID: 1848379891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_48
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 4883
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5a2009e2b7c6d45966efe69382ff59
+      internalID: 1779810267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_49
+      rect:
+        serializedVersion: 2
+        x: 5348
+        y: 4696
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab20661795fb774a9cad8774e4bf0a0
+      internalID: -1362929434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_50
+      rect:
+        serializedVersion: 2
+        x: 5455
+        y: 4595
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce998942848fe842a405312faee3554
+      internalID: -1858157891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_51
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 4536
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab44c993c9def04d8227b9d50f1f9d1
+      internalID: 2006406407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3848
+        width: 497
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63213b6b86fc0f4e9e21687b5b296d4
+      internalID: 312360340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_53
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3852
+        width: 497
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f4011ca2e7a24282c7c3dd4407c7e
+      internalID: 180958038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_54
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 3848
+        width: 499
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31035fe08f4ce8040916929111a31455
+      internalID: -1753879130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_55
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 3836
+        width: 516
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89282ffa19ab9c4ab1d3ac4914643d4
+      internalID: -1906996682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_56
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 3848
+        width: 497
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9608af56a7a041adf7c69b1333690
+      internalID: 742597828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_57
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 3852
+        width: 497
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710f5150e083fd4f978ca4eafbb7c76
+      internalID: -2056570062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_58
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 3848
+        width: 497
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a475d2df09231ee44b08eab7dabe2680
+      internalID: 686965931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_59
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 3836
+        width: 515
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddc77a64c347894facd20a050e4258a
+      internalID: 1020904554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_60
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 3939
+        width: 441
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b38e47abaff7048b4f180f899d1d74
+      internalID: 1908880156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_61
+      rect:
+        serializedVersion: 2
+        x: 5858
+        y: 3936
+        width: 447
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bd7f87727cfb444a600c55f22d0bce
+      internalID: 1046727102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_62
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3220
+        width: 600
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7445e8ad41dad4c88aaf4606e0e399
+      internalID: 1816569382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_63
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 3236
+        width: 606
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57802ed012616884b95632e43eaac797
+      internalID: -1846130836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_64
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 3224
+        width: 618
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0463add071d6a249958766cc5312106
+      internalID: -1284377737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_65
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 3239
+        width: 593
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7385461d0e5720843a4ec9bdb568cba9
+      internalID: -308569017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_66
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 3239
+        width: 428
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e13178e45a134da4abc0299caf73d
+      internalID: 851541835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_67
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 3267
+        width: 403
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1231456a0dca44486807f6dd274340
+      internalID: -1031868961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_68
+      rect:
+        serializedVersion: 2
+        x: 3917
+        y: 3248
+        width: 481
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3de9f0c4a803e9458644728b8657548
+      internalID: 1570484445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_69
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 3283
+        width: 331
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b76400dea122564886d085b0ce9602a
+      internalID: 1532758978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_70
+      rect:
+        serializedVersion: 2
+        x: 4636
+        y: 3414
+        width: 350
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8122a175a7c0b4a82927d9b745665b
+      internalID: 4159799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_71
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 3377
+        width: 137
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed3805a8b54c047be952d26e5118c7
+      internalID: -1089961233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_72
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 3308
+        width: 303
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3737a68be6f80438c96a9b92a5c022
+      internalID: 939349977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_73
+      rect:
+        serializedVersion: 2
+        x: 5827
+        y: 3355
+        width: 428
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e82313f91a80e54488f6588b7b41a03
+      internalID: -889235359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_74
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2667
+        width: 531
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a1f981cb452fc4c94dd9a871619236
+      internalID: 1393752009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_75
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 3136
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb223c23e9f5e4f889e94d3e099b5f
+      internalID: -1495811106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_76
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 2608
+        width: 490
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb77d7ba7b7e3b4685ed06a77e1a1ee
+      internalID: -1374074080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_77
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 0
+        width: 810
+        height: 3145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5845b7ae4efe44887cff79a418a01b
+      internalID: -1278802140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_78
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2995
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e01d0bd25c91409420aa27f2869d2
+      internalID: 1785002458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_79
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 2592
+        width: 544
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8917008f7841848ac8c8d8b6dcaf1a
+      internalID: -1593064225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_80
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 3039
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f926c2ead16b3274081fcf1a0eabcf12
+      internalID: -1285962786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_81
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 2664
+        width: 403
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49b8cf792ea49b41bd56a5eefe50aed
+      internalID: -10732407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_82
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 2583
+        width: 541
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4869efaa3e5654187da6b06733402f
+      internalID: -1580265173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_83
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 2658
+        width: 360
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0c0d3f72aeeff40a33d8946d7dbd0a
+      internalID: 980845989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_84
+      rect:
+        serializedVersion: 2
+        x: 5867
+        y: 2614
+        width: 438
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8630842772464b04caa7e3cfe1e3e451
+      internalID: -748652067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_85
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2630
+        width: 563
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b2460f859769746bc27aa24442a941
+      internalID: -2122332852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_86
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2877
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f937303a9272cc3408664edce5be5a86
+      internalID: 435937300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camper1_87
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2652
+        width: 528
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58426546136ce7d44b46fe89cd691d6b
+      internalID: 1221226984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Camper1_0: 1437125694
+      Camper1_1: 928975968
+      Camper1_10: 1840530154
+      Camper1_11: -929659708
+      Camper1_12: 1243473245
+      Camper1_13: 180637491
+      Camper1_14: 1587942516
+      Camper1_15: 1760957451
+      Camper1_16: -1167592586
+      Camper1_17: 847130115
+      Camper1_18: 1170303360
+      Camper1_19: 867635083
+      Camper1_2: 1943924117
+      Camper1_20: 350916442
+      Camper1_21: -799241649
+      Camper1_22: 154203261
+      Camper1_23: 824134744
+      Camper1_24: 1877295030
+      Camper1_25: -1059076971
+      Camper1_26: 706208730
+      Camper1_27: 615539315
+      Camper1_28: -1499397375
+      Camper1_29: 532160429
+      Camper1_3: 1706595635
+      Camper1_30: -539734593
+      Camper1_31: 1473093046
+      Camper1_32: 606216215
+      Camper1_33: -710412815
+      Camper1_34: 1153830084
+      Camper1_35: 1117745531
+      Camper1_36: -2145525003
+      Camper1_37: 813884213
+      Camper1_38: -679708513
+      Camper1_39: 542686684
+      Camper1_4: 700732639
+      Camper1_40: 481129159
+      Camper1_41: -1511849670
+      Camper1_42: 971112963
+      Camper1_43: 1305809310
+      Camper1_44: 1798270158
+      Camper1_45: 2053984609
+      Camper1_46: -741628991
+      Camper1_47: 1848379891
+      Camper1_48: 1779810267
+      Camper1_49: -1362929434
+      Camper1_5: -855796612
+      Camper1_50: -1858157891
+      Camper1_51: 2006406407
+      Camper1_52: 312360340
+      Camper1_53: 180958038
+      Camper1_54: -1753879130
+      Camper1_55: -1906996682
+      Camper1_56: 742597828
+      Camper1_57: -2056570062
+      Camper1_58: 686965931
+      Camper1_59: 1020904554
+      Camper1_6: -280696868
+      Camper1_60: 1908880156
+      Camper1_61: 1046727102
+      Camper1_62: 1816569382
+      Camper1_63: -1846130836
+      Camper1_64: -1284377737
+      Camper1_65: -308569017
+      Camper1_66: 851541835
+      Camper1_67: -1031868961
+      Camper1_68: 1570484445
+      Camper1_69: 1532758978
+      Camper1_7: 707902776
+      Camper1_70: 4159799
+      Camper1_71: -1089961233
+      Camper1_72: 939349977
+      Camper1_73: -889235359
+      Camper1_74: 1393752009
+      Camper1_75: -1495811106
+      Camper1_76: -1374074080
+      Camper1_77: -1278802140
+      Camper1_78: 1785002458
+      Camper1_79: -1593064225
+      Camper1_8: -1099157456
+      Camper1_80: -1285962786
+      Camper1_81: -10732407
+      Camper1_82: -1580265173
+      Camper1_83: 980845989
+      Camper1_84: -748652067
+      Camper1_85: -2122332852
+      Camper1_86: 435937300
+      Camper1_87: 1221226984
+      Camper1_9: -264660285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
