@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Score : MonoBehaviour
     [SerializeField] float rampageTimeInterval = 3; //amount of time you stayin RampageMode
     [SerializeField] int scoreAmountInRampage = 5; //this is how many points the player recevies while in rampage
     [SerializeField] int scoreAmountNonRampage = 1; // how many points while not in rampage 
+    [SerializeField] Text ScoreText;
     public int playerScore = 0;
     public bool rampageMode = false;
     int currentCamperCount;
@@ -17,10 +19,24 @@ public class Score : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime = Time.deltaTime;
-        RampagePointsChecker();
-        currentCamperCount = winOrLoseCondition.allCampers.Count;
-        SetRampageMode();
+       // currentTime = Time.deltaTime;
+       // RampagePointsChecker();
+      //  currentCamperCount = winOrLoseCondition.allCampers.Count;
+       // SetRampageMode();
+    }
+
+    public void CamperDied()
+    {
+        if (FindAnyObjectByType<AudioManager>().RageMode)
+        {
+            playerScore += 5;
+            ScoreText.text = playerScore.ToString();
+        }
+        else
+        {
+            playerScore += 1;
+            ScoreText.text = playerScore.ToString();
+        }
     }
 
     void RampagePointsChecker()

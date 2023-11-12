@@ -131,6 +131,7 @@ public class CamperMovement : MonoBehaviour
 
     public void HitTrap()
     {
+        FindAnyObjectByType<Score>().CamperDied();
         GetComponent<CamperStateManager>().Dying();
         dying = true;
         int RandomDeathIndexClip = Random.Range(0, deathClips.Count);
@@ -151,6 +152,7 @@ public class CamperMovement : MonoBehaviour
             {
                 Destroy(fieldOfView.gameObject);
             }
+            FindAnyObjectByType<Score>().CamperDied();
             GetComponent<CamperStateManager>().FoundPlayer(collision.gameObject, true);
             GetComponent<CamperStateManager>().Dying();
             dying = true;

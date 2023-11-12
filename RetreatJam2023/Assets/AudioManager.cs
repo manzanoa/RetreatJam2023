@@ -13,6 +13,8 @@ public class AudioManager : MonoBehaviour
     float timeSinceEvilLastPlayed = -20;
     float floatMinimalEvilPlayTime = 2f;
 
+    public bool RageMode = false;
+
     public int peopleScared = 0;
     bool playingHappySong = true;
     public void SomeoneScared()
@@ -47,6 +49,7 @@ public class AudioManager : MonoBehaviour
         if(peopleScared > 0 || camperDiedRecently || Time.time < timeSinceEvilLastPlayed + floatMinimalEvilPlayTime)
         {
             camperDiedRecently = false;
+            RageMode = true;
            // PumpMusic(EvilSource);
             //FadeMusic(HappySource);
             if (playingHappySong)
@@ -61,6 +64,7 @@ public class AudioManager : MonoBehaviour
         {
             //PumpMusic(HappySource);
             //FadeMusic(EvilSource);
+            RageMode = false;
             if (!playingHappySong)
             {
                 HappySource.Play();

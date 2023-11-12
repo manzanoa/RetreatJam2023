@@ -21,6 +21,7 @@ public class CopCar : MonoBehaviour
     {
         if (Cops.copsDepolyed && !copCarCreated)
         {
+            GetComponent<AudioSource>().Play();
             copCarCreated = true;
         }
         if(copCarCreated == true && copCarParking == false)
