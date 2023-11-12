@@ -132,6 +132,10 @@ public class CamperMovement : MonoBehaviour
         GetComponent<CamperStateManager>().Dying();
         dying = true;
         GetComponent<Animator>().SetTrigger("Dead");
+        if (fieldOfView)
+        {
+            Destroy(fieldOfView.gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
