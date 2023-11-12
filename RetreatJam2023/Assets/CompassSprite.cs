@@ -16,13 +16,14 @@ public class CompassSprite : MonoBehaviour
 
     public SpriteRenderer sprite;
 
-    public bool inUse = false;
+    public static bool inUse = false;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag.Equals("Player") && !inUse)
         {
+            inUse = true;
             pm = collision.GetComponent<PlayerMovement>();
             campers = wlc.allCampers;
             float closestDist = Mathf.Infinity;
@@ -67,7 +68,11 @@ public class CompassSprite : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+
+        inUse = false;
+
         Destroy(newArrow);
+
         Destroy(this);
     }
 }

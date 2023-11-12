@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpeedBoostScript : MonoBehaviour
@@ -8,9 +9,10 @@ public class SpeedBoostScript : MonoBehaviour
     float oldSpeed;
     PlayerMovement pm = null;
     [SerializeField] SpriteRenderer sprite;
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.transform.tag.Equals("Player"))
+        if (collision.transform.tag.Equals("Player"))
         {
             pm = collision.transform.GetComponent<PlayerMovement>();
             Time.timeScale = .5f;
