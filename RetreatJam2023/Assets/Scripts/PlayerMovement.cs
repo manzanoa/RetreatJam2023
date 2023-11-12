@@ -6,10 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;  // Movement speed
     public Animator m_animator;
+    bool trapped = false;
 
     void FixedUpdate()
     {
-        Move();
+        if (!trapped)
+        {
+            Move();
+        }
     }
 
     void Move()
@@ -39,5 +43,18 @@ public class PlayerMovement : MonoBehaviour
     {
         moveSpeed /= 2.5f;
         GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    public void Trapped()
+    {
+        trapped = true;
+        m_animator.SetFloat("Speed", 0);
+        StartCoroutine("GotTrapped");
+    }
+
+    IEnumerator GotTrapped()
+    {
+        yield return new WaitForSeconds(2f);
+        trapped = false;
     }
 }

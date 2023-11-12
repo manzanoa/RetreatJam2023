@@ -38,7 +38,6 @@ public class PowerUpSpawner : MonoBehaviour
         Vector2 pos = new Vector2(Mathf.Clamp(playerMovement.transform.position.x + xPosIncrease, xMin,  xMax), Mathf.Clamp(playerMovement.transform.position.y + yPosIncrease, yMin, yMax));
         //Try again
         if (Physics2D.OverlapCircle(pos, 1f, EnvironmentLayerMask)){
-            Debug.Log("Tried to spawn on environment");
             AttemptToSpawn();
         }
         else
