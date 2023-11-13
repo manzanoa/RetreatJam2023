@@ -12,6 +12,7 @@ public class CamperMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] FieldOfView fieldOfView;
     [SerializeField] GameObject fieldOfViewPrefab;
+    [SerializeField] GameObject AudioDeathScream;
     [SerializeField] List<GameObject> BodyParts;
     bool dying = false;
     // Start is called before the first frame update
@@ -135,8 +136,9 @@ public class CamperMovement : MonoBehaviour
         GetComponent<CamperStateManager>().Dying();
         dying = true;
         int RandomDeathIndexClip = Random.Range(0, deathClips.Count);
-        audioSource.clip = deathClips[RandomDeathIndexClip];
-        audioSource.Play();
+        GameObject scream = Instantiate(AudioDeathScream);
+        scream.GetComponent<AudioSource>().clip = deathClips[RandomDeathIndexClip];
+        scream.GetComponent<AudioSource>().Play();
         GetComponent<Animator>().SetTrigger("Dead");
         if (fieldOfView)
         {
@@ -157,8 +159,9 @@ public class CamperMovement : MonoBehaviour
             GetComponent<CamperStateManager>().Dying();
             dying = true;
             int RandomDeathIndexClip = Random.Range(0, deathClips.Count);
-            audioSource.clip = deathClips[RandomDeathIndexClip];
-            audioSource.Play();
+            GameObject scream = Instantiate(AudioDeathScream);
+            scream.GetComponent<AudioSource>().clip = deathClips[RandomDeathIndexClip];
+            scream.GetComponent<AudioSource>().Play();
             GetComponent<Animator>().SetTrigger("Dead");
 
         }

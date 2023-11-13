@@ -57,7 +57,7 @@ public class AudioManager : MonoBehaviour
                 playingHappySong = false;
                 globalLight.color = evilLight;
                 HappySource.volume = 0;
-                EvilSource.volume = 1;
+                EvilSource.volume = .6f;
             }
         }
         else
@@ -70,7 +70,7 @@ public class AudioManager : MonoBehaviour
                 HappySource.Play();
                 playingHappySong = true;
                 globalLight.color = happyLight;
-                HappySource.volume = 1;
+                HappySource.volume = .6f;
                 EvilSource.volume = 0;
             }
         }

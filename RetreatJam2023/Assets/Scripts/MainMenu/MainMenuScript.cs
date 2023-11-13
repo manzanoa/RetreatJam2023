@@ -37,4 +37,9 @@ public class MainMenuScript : MonoBehaviour
         credits.SetActive(false);
         mainMenu.SetActive(true);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

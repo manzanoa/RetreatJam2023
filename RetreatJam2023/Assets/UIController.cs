@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     [SerializeField] GameObject OutcomeWindow;
+    [SerializeField] GameObject WinScreen;
     [SerializeField] Text timer;
     [SerializeField] Text camperCount;
     public void Win()
     {
-        OutcomeWindow.SetActive(true);
-        OutcomeWindow.GetComponent<OutcomeScript>().win = true;
+        WinScreen.SetActive(true);
+        //OutcomeWindow.SetActive(true);
+        //OutcomeWindow.GetComponent<OutcomeScript>().win = true;
     }
 
     public void Lose()

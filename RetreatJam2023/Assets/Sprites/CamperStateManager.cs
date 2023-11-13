@@ -12,7 +12,7 @@ public class CamperStateManager : MonoBehaviour
     [SerializeField] List<AudioClip> FrieghtendAudio;
     [SerializeField] AudioSource audioSource;
     [SerializeField] SpriteRenderer CamperVisual;
-    [SerializeField] GameObject SuprisedObject;
+    public GameObject SuprisedObject;
     [SerializeField] float timeUntilNotScared = 3f;
     [SerializeField] float screamRadius = 3f;
     float timerSinceLastSeenPlayer;

@@ -286,6 +286,7 @@ MonoBehaviour:
   moveSpeed: 0.5
   fieldOfView: {fileID: 8847884743858778743, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
   fieldOfViewPrefab: {fileID: 1367885405492333079, guid: c2ab4cc3a26dbc441be883c3fff9f65b, type: 3}
+  AudioDeathScream: {fileID: 4626093632536707988, guid: 302a0ea382f26994d85126edfa55b986, type: 3}
   BodyParts:
   - {fileID: 7272635215011442361, guid: 3bc9e4effa94a3e4bb05564836296dcd, type: 3}
   - {fileID: 6564439664410199196, guid: 4cb5bea5980f8ee47a6839582337914f, type: 3}
